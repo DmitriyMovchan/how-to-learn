@@ -72,7 +72,7 @@
   height: 608px;
   bottom: 0px;
   right: 0px;
-  background-image: url(/images/header-image.png);
+  background-image: url(../images/header-image.png);
   background-size: cover;
   z-index: 10;
 }
@@ -98,7 +98,6 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  margin: 100px auto 100px;
 }
 
 .two-columns_brief {
@@ -224,7 +223,7 @@
 }
 
 .feynman__image {
-  background-image: url(/images/feynman.png);
+  background-image: url(../images/feynman.png);
   z-index: 1;
   height: 637px;
   width: 867px;
@@ -261,7 +260,7 @@
 .kaufman__triangle {
   min-width: 877px;
   min-height: 877px;
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   right: -210px;
   top: 0px;
