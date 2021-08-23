@@ -7,6 +7,8 @@
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -165,6 +167,9 @@
 }
 
 .table {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -176,11 +181,11 @@
 .table__cell {
     width: 250px;
     margin: 60px 0px 0px 0px;
-    list-style: none;
     padding: 0px;
 }
 
 .table__heading {
+    margin: 0;
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
@@ -269,7 +274,7 @@
     text-align: center;
 }
 
-.table_cell_theme_dark {
+.table__cell_theme_dark {
     width: 200px;
     margin: 80px 0px 0px 0px;
 }
@@ -322,7 +327,7 @@
     justify-content: flex-start;
 }
 
-.footer__column_heading {
+.footer__column-heading {
     margin: 0;
     line-height: 30px;
     font-size: 18px;
@@ -341,19 +346,19 @@
     font-weight: normal;
 }
 
-.footer__column_links {
+.footer__column-links {
     display: flex;
     flex-direction: column;
     margin: 20px 0px 16px;
 }
 
-.footer__social_icon {
+.footer__social-icon {
     margin-right: 10px;
     width: 16px;
     height: 16px;
 }
 
-.footer__column_link {
+.footer__column-link {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
